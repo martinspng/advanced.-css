@@ -1,0 +1,54 @@
+a{
+font-size: 20px;
+}
+
+#head{
+font-size: 50px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: 400;
+font-size: 100px;
+text-align: center;
+color: grey;
+background-color: black;
+padding: 90px 0px 55px 0px;
+margin-top: 70px;
+}
+
+#head2{
+text-align: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+border: 1px groove black;
+font-size: 25px;
+}
+
+#page{
+font-size: 20px;
+text-align: justify;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#categories{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 80px;
+padding-right: 1000px;
+}
+
+.tesla{
+display: inline;
+
+
+
+}
+
+#2{
+padding-right: 50px;
+
+
+
+    
+}
+
+p{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+letter-spacing: 5px;
+}
