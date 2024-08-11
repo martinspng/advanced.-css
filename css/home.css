@@ -2,6 +2,28 @@ a{
 font-size: 20px;
 }
 
+.navigation{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: end;
+border-radius: 10px ;
+gap: 15%;
+height: 49px;
+border: 1px solid rgba(194, 191, 191, 0.904);
+padding: 15px 0px 0px 0px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.tesla{
+word-spacing: 40px;
+flex-wrap: wrap;
+display: grid;
+height: 100px;
+width: 100px;
+grid-template-columns: 20% 30% 50% ;
+}
+
 #head{
 font-size: 50px;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -12,6 +34,8 @@ color: grey;
 background-color: black;
 padding: 90px 0px 55px 0px;
 margin-top: 70px;
+border-radius: 10px;
+
 }
 
 #head2{
@@ -19,6 +43,7 @@ text-align: center;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 border: 1px groove black;
 font-size: 25px;
+border-radius: 5px;
 }
 
 #page{
@@ -50,5 +75,13 @@ padding-right: 50px;
 
 p{
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-letter-spacing: 5px;
+letter-spacing: 1px;
+}
+
+.grid-container{
+grid-template-areas: 
+"header "
+;
+grid-template-columns: 50%;
+grid-template-rows: 25%;
 }

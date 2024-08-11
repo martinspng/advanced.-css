@@ -37,4 +37,3 @@ Swal.fire(
         
         ))*/
 
-alert(hello world)
